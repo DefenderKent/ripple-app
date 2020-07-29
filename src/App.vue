@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Ready to check</h2>
+    <ripple
+      title="dddd"
+      color="rgba(255,152,0,0.7)"
+      v-colored:background="''"
+      class="btn"
+    >
+      <div>Click me</div>
+    </ripple>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
