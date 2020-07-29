@@ -1,12 +1,11 @@
 <template>
   <div id="app">
     <h2>Ready to check</h2>
-    <ripple
-      title="dddd"
-      color="rgba(255,152,0,0.7)"
-      v-colored:background="''"
-      class="btn"
-    >
+
+    <!--С помощью v-colored можно менять стили : v-colored:background="'red'" -->
+    <!--В ripple можно передать пропс color, который меняет цвет эффекта : color="rgba(250,150,0,0.7)" -->
+
+    <ripple title="dddd" color="rgba(237, 199, 28, 0.5)" v-colored class="btn">
       <div>Click me</div>
     </ripple>
   </div>
@@ -15,7 +14,7 @@
 <script>
 export default {
   name: "App",
-  components: {},
+  components: {}
 };
 </script>
 
